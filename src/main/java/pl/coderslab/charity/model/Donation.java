@@ -35,7 +35,8 @@ public class Donation {
 
     private String city;
 
-    private String zipCode;
+    private String zipCode; //varchar (255),
+    // varchar (10)<-- lepsze
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate pickUpDate;
