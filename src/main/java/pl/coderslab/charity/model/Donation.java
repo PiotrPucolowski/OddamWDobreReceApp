@@ -26,6 +26,9 @@ public class Donation {
 
     @ManyToMany
     @ToString.Exclude
+    @JoinTable(name = "donations_categories",
+            joinColumns = @JoinColumn(name="donation_id"),
+            inverseJoinColumns = @JoinColumn(name="category_id"))
     private List<Category> categories= new ArrayList<>();
 
     @ManyToOne
