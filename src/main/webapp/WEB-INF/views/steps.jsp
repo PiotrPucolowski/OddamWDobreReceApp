@@ -10,7 +10,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
 <jsp:include page="head.jsp"/>
-<section class="steps">
+<section class="steps" id="mainSection">
     <h2>Wystarczą 4 proste kroki</h2>
 
     <div class="steps--container">
