@@ -1,4 +1,4 @@
-INSERT INTO category(id, name) VALUES
+INSERT INTO `category`(id, name) VALUES
 (1,'Ubrania do użytku'),
 (2,'Ubrania do wyrzucenia'),
 (3,'Zabawki'),
@@ -15,3 +15,12 @@ INSERT INTO `donation`(id, city, pick_up_comment, pick_up_date, pick_up_time, qu
 (1,'Warszawa','oddaje swoje zabawki',current_date,current_time,2,'Okrzei 12',00-000,3),
 (2,'Sopot','ubranka',current_date,current_time,3,'Matejki 2',11-111,2),
 (3,'Wrocław','książeczki',current_date,current_time,5,'Skłodowskiej 23/2',22-569,1);
+
+INSERT INTO `donation`(id, city, pick_up_comment, pick_up_date, pick_up_time, quantity, street, zip_code, institution_id) VALUES
+(4,'lublin','ubrania',current_date,current_time,8,'Skłodowskiej 23/2','22-569',1);
+
+INSERT INTO `institution`(id,name, description) VALUES
+(5,'Fundacja "Testowa"', 'Cel i misja: Czy wyświetla się na stronie?');
+
+INSERT INTO `donation`(id, city, pick_up_comment, pick_up_date, pick_up_time, quantity, street, zip_code, institution_id) VALUES
+    (5,'lublin','zabawki',current_date,current_time,3,'Skłodowskiej 23/2','22-569',5);
