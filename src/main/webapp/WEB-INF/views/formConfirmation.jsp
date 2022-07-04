@@ -11,9 +11,12 @@
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html lang="pl">
-<jsp:include page="head.jsp"/>
 <body>
-<jsp:include page="header.jsp"/>
+<jsp:include page="head.jsp"/>
+
+<h2>JESTEŚ WIELKI!</h2>
+<h1>DZIEKUJEMY ZA PRZEKAZANE DARY ! :) <3</h1>
+
 
 <jsp:include page="footer.jsp"/>
 
